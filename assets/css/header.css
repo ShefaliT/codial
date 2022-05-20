@@ -6,8 +6,10 @@ header {
   justify-content: space-between;
   align-items: center; }
   header h1 {
-    font-family: "optima", sans-serif;
-    font-weight: 10rem;
+    font-family: "impact", fantasy;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-stretch: expanded;
     color: white;
     margin: 0px; }
   header ul {
@@ -19,5 +21,5 @@ header {
       header ul li a {
         text-decoration: none;
         color: white;
-        font-family: "optima", sans-serif;
-        font-weight: bold; }
+        font-size: 14;
+        font-family: "helvetica", sans-serif; }

@@ -1,0 +1,22 @@
+footer {
+  background-color: #FF7171;
+  display: flex;
+  margin: 0px;
+  height: 7rem;
+  color: #ffffff; }
+  footer small {
+    justify-content: left;
+    padding-left: 1.3rem;
+    padding-top: 1.6rem;
+    font-family: "helvetica", sans-serif;
+    font-weight: normal; }
+  footer ul {
+    list-style-type: none;
+    padding-top: 8px; }
+    footer ul li {
+      padding-left: 0.2rem; }
+      footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 13;
+        font-family: "helvetica", sans-serif; }
