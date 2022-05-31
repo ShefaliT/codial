@@ -1,15 +1,30 @@
 #home-container{
     display:flex;
+    height: 100%;
+    padding-bottom: 10px;
+    // background-color: pink;
+    
+    
 
     #feed-posts{
         width: 70%;
         padding: 10px;
+        // background-color: yellow;
+        height: 97%;
+        overflow-y: scroll;
+        #posts-list-container{
+            
+            // background-color: red;
+            height: 97%;
+            overflow-y: scroll;
+        }
     }
 
     #friends{
         width: 30%;
         padding: 10px;
         border-left: 1px solid lightgrey;
-        height: 40.3rem;
+        height: 97%;
+        // background-color: blue;
     }
 }

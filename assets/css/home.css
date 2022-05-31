@@ -1,10 +1,17 @@
 #home-container {
-  display: flex; }
+  display: flex;
+  height: 100%;
+  padding-bottom: 10px; }
   #home-container #feed-posts {
     width: 70%;
-    padding: 10px; }
+    padding: 10px;
+    height: 97%;
+    overflow-y: scroll; }
+    #home-container #feed-posts #posts-list-container {
+      height: 97%;
+      overflow-y: scroll; }
   #home-container #friends {
     width: 30%;
     padding: 10px;
     border-left: 1px solid lightgrey;
-    height: 40.3rem; }
+    height: 97%; }
