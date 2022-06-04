@@ -22,8 +22,10 @@ const userSchema = new mongoose.Schema({
         type: String
     }
 }, {
-    timestamps: true
+    timestamps: true 
 });
+
+//performing the cecks 
 
 let storage = multer.diskStorage({
     destination: function (req, file, cb) {
